@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  background-image: url("../imgs/architect.jpg");
+  background-size: cover;
+}
+
+.img-gray {
+  filter: grayscale(70%);
+}
+
+.form-control:focus {
+  border-color: black !important;
+  box-shadow: 0 0 0 0.06rem rgba(0, 0, 0, 1) !important;
+}
+
+.btn-dark {
+  border: none !important;
+}
+
+.btn-dark:hover {
+  background-color: #ddd !important;
+  color: #000 !important;
+  border: none !important;
+  font-weight: 600 !important;
+}
